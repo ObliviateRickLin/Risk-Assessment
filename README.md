@@ -19,11 +19,11 @@ Collision Probability gauges the likelihood of a future collision at time \( t +
 
 
 $$
-c_{i}(t + \Delta t) = \int\!\!\!\int_{A} f_{i}^{(t + \Delta t)}(x, y) \, dx \, dy
+c_{i}(t + \Delta t) = \int\int_{A} f_{i}^{(t + \Delta t)}(x, y) \, dx \, dy
 $$
 
 
-Where \( A \) represents the integration domain, specifically, the collision octagon. This concept is inspired by the paper "Analytic Collision Risk Calculation for Autonomous Vehicle Navigation".
+Where $A$ represents the integration domain, specifically, the collision octagon. This concept is inspired by the paper "Analytic Collision Risk Calculation for Autonomous Vehicle Navigation".
 
 ![Collision Probability Visualization](assets/collision_prob_visualization.png)
 
@@ -37,7 +37,7 @@ s_{i}(t + \Delta t) = \frac{1}{2}M\beta^{2}( V_{i}^{t + \Delta t})^{2}
 $$
 
 
-Where \( M \) refers to mass and \( \beta \) is a scaling factor. The velocity \( V_{i}^{t + \Delta t} \) is estimated by the ratio of the distance between future trajectory points to the time interval.
+Where $M$ refers to mass and $\beta$ is a scaling factor. The velocity $V_{i}^{t + \Delta t}$ is estimated by the ratio of the distance between future trajectory points to the time interval.
 
 ## Overall Collision Risk
 
