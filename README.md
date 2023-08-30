@@ -44,18 +44,14 @@ Where $M$ refers to mass and $\beta$ is a scaling factor. The velocity $V_{i}^{t
 The overall collision risk function is derived by combining the above metrics:
 
 
-\[
-\text{risk}_{\text{col}}(t + \Delta t) = \sum_{i=1}^{m} p_i(t + \Delta t) \cdot c_i(t + \Delta t) \cdot s_i(t + \Delta t)
-\]
+\(\text{risk}_{\text{col}}(t + \Delta t) = \sum_{i=1}^{m} p_i(t + \Delta t) \cdot c_i(t + \Delta t) \cdot s_i(t + \Delta t)\)
 
 
 
 Fusion of multiple metrics is done using:
 
 
-\[
-\text{risk}_{\text{overall}} = \sum_{i} w_i \cdot \mathcal{N}(\text{risk}_i)
-\]
+\(\text{risk}_{\text{overall}} = \sum_{i} w_i \cdot \mathcal{N}(\text{risk}_i)\)
 
 
 
