@@ -45,7 +45,7 @@ The overall collision risk function is derived by combining the above metrics:
 
 
 $$
-{risk}_{col}(t + \Delta t) = \sum_{i=1}^{m} p_i(t + \Delta t) \cdot c_i(t + \Delta t) \cdot s_i(t + \Delta t)
+\mathrm{risk}_{col}(t + \Delta t) = \sum_{i=1}^{m} p_i(t + \Delta t) \cdot c_i(t + \Delta t) \cdot s_i(t + \Delta t)
 $$
 
 
@@ -53,8 +53,9 @@ Fusion of multiple metrics is done using:
 
 
 $$
-{risk}_{overall} = \sum_{i} w_i \cdot \mathcal{N}({risk}_i)
+\mathrm{risk}_{overall} = \sum_{i} w_i \cdot \mathcal{N}(\mathrm{risk}_i)
 $$
+
 
 
 ## References
